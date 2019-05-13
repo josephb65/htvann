@@ -1,0 +1,6 @@
+#!usr/bin/env ruby
+require './lib/htvann'
+#require "bundler/setup"
+#require "htvann"
+
+Htvann::CLI.new.call
